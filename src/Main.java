@@ -30,11 +30,16 @@ public class Main {
         }
         //Main m1 = new Main();
         System.out.println(calculatesalary(e1));
+        System.out.println("monthly salary is:" + " " + calculatemonthlysalary(e1));
 
     }
     static double  calculatesalary(Employee e){
         return e.workhour*e.wageperhour;
     }
+    static double calculatemonthlysalary(Employee e){
+        return e.workhour*e.wageperhour*20;
+    }
+
 
 
 }

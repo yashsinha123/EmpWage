@@ -5,6 +5,7 @@ public class Employee {
     Integer wageperhour;
     Integer workhour=0;
 
+
      Employee( String n, Integer i,Integer w){
 
         this.name = n;
