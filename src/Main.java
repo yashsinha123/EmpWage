@@ -26,11 +26,11 @@ public class Main {
             System.out.println("EMployee is part time");
             e1.workhour=4;
         }
-        //Main m1 = new Main();
-        System.out.println(calculatesalary(e1));
+        Main m1 = new Main();
+        System.out.println(m1.calculatesalary(e1));
 
     }
-    static double  calculatesalary(Employee e){
+    double  calculatesalary(Employee e){
         return e.workhour*e.wageperhour;
     }
 
