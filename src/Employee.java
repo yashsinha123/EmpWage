@@ -4,6 +4,8 @@ public class Employee {
     Integer attendance;
     Integer wageperhour;
     Integer workhour=0;
+    Integer curenthour =0;
+
 
 
      Employee( String n, Integer i,Integer w){
@@ -11,6 +13,8 @@ public class Employee {
         this.name = n;
         this.id = i;
         this.wageperhour =w ;
+
+
     }
 
 
